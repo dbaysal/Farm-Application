@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.FarmAppMenu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="16" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="676" height="504"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8fb7d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Welcome tı FarmApp"/>
+        </properties>
+      </component>
+      <component id="32fc9" class="javax.swing.JRadioButton" binding="addAnimalToTheRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add animal to the system."/>
+        </properties>
+      </component>
+      <component id="d7e07" class="javax.swing.JRadioButton" binding="deleteAnimalFromTheRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete animal from the system."/>
+        </properties>
+      </component>
+      <component id="efdeb" class="javax.swing.JRadioButton" binding="getDetailsOfARadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get details of a specific animal. "/>
+        </properties>
+      </component>
+      <component id="fdef0" class="javax.swing.JRadioButton" binding="deleteEmployeeFromTheRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete employee from the system. "/>
+        </properties>
+      </component>
+      <component id="52e51" class="javax.swing.JRadioButton" binding="getDetailsOfARadioButton1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get details of a specific employee. "/>
+        </properties>
+      </component>
+      <component id="4609e" class="javax.swing.JRadioButton" binding="addEmployeeToTheRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add employee to the system. "/>
+        </properties>
+      </component>
+      <component id="80ac1" class="javax.swing.JRadioButton" binding="addTreatmentToARadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add treatment to a specific animal with employee details. "/>
+        </properties>
+      </component>
+      <component id="6e34f" class="javax.swing.JRadioButton" binding="getDetailsOfARadioButton2" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get details of a specific animal treatments. "/>
+        </properties>
+      </component>
+      <component id="8c44f" class="javax.swing.JRadioButton" binding="getDetailsOfARadioButton3" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get details of a specific animal treatment on given date "/>
+        </properties>
+      </component>
+      <component id="213e2" class="javax.swing.JRadioButton" binding="getFeedingInformationOfRadioButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get feeding information of an animal"/>
+        </properties>
+      </component>
+      <component id="eb71b" class="javax.swing.JRadioButton" binding="getEmployeeSalaryRadioButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get employee salary "/>
+        </properties>
+      </component>
+      <component id="4aca1" class="javax.swing.JRadioButton" binding="addMilkingMeasurementToRadioButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add milking measurement to an animal "/>
+        </properties>
+      </component>
+      <component id="495c5" class="javax.swing.JRadioButton" binding="exitRadioButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit "/>
+        </properties>
+      </component>
+      <component id="26563" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Cow"/>
+            <item value="Sheep"/>
+          </model>
+        </properties>
+      </component>
+      <component id="67017" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Cow"/>
+            <item value="Sheep"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e50c0" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Cow"/>
+            <item value="Sheep"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1c450" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Veterinary"/>
+            <item value="Farm Worker"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9dd4a" class="javax.swing.JComboBox" binding="comboBox5">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Veterinary"/>
+            <item value="Farm Worker"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c2e4f" class="javax.swing.JComboBox" binding="comboBox6">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Veterinary"/>
+            <item value="Farm Worker"/>
+          </model>
+        </properties>
+      </component>
+      <component id="94ea4" class="javax.swing.JButton" binding="executeButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Execute"/>
+        </properties>
+      </component>
+      <component id="13018" class="javax.swing.JRadioButton" binding="getAllInstancesInRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get all instances in the system. "/>
+        </properties>
+      </component>
+      <component id="cf8bf" class="javax.swing.JComboBox" binding="comboBox7">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Cow"/>
+            <item value="Sheep"/>
+            <item value="Veterinary"/>
+            <item value="Farm Worker"/>
+          </model>
+        </properties>
+      </component>
+      <component id="8a6f6" class="javax.swing.JComboBox" binding="comboBox8" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Cleaning Treatment"/>
+            <item value="Health Treatment"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
